@@ -1,0 +1,23 @@
+.task-item {
+  border: 2px outset #678;
+  border-radius: 7px 4px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+  padding: 2px 8px;
+  max-width: 400px;
+
+  &__title {
+    cursor: pointer;
+    font-size: 16px;
+
+    &--done {
+      text-decoration: line-through;
+    }
+  }
+
+  &__input {
+    font-size: 16px;
+    margin-right: 2px;
+  }
+}
