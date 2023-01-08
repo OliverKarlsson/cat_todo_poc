@@ -5,7 +5,7 @@ import { ButtonTemplateProps } from "./Button.types";
  * The atomic buttons template component
  *
  * @param x - The component props
- * @returns The controlled button component.
+ * @returns The button template component.
  *
  * @beta
  */
@@ -14,6 +14,7 @@ const Button = ({
   size = "medium",
   backgroundColor,
   label,
+  onClick,
 }: ButtonTemplateProps) => (
   <button
     type="button"
@@ -23,6 +24,7 @@ const Button = ({
       primary ? style["button--primary"] : style["button--secondary"],
     ].join(" ")}
     style={{ backgroundColor }}
+    onClick={onClick}
   >
     {label}
   </button>

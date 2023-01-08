@@ -1,5 +1,5 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-
+import { action } from "@storybook/addon-actions";
 import Button from "./Button.template";
 import { ButtonTemplateProps } from "./Button.types";
 
@@ -14,7 +14,11 @@ export default {
 const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
 
 export const ButtonMock = (props: Partial<ButtonTemplateProps>) => (
-  <Button label="mocked button" {...props} />
+  <Button
+    label="mocked button"
+    onClick={action("[ButtonMock] onClick")}
+    {...props}
+  />
 );
 
 export const WhenPrimary = Template.bind({});
