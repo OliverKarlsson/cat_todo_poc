@@ -1,0 +1,33 @@
+.tasks-lists {
+  border: 3px outset rgb(35, 57, 177);
+  border-radius: 9px 6px;
+  list-style: "none";
+  margin: 0 0 0 6px;
+  padding: 0 6px 0 4px;
+  width: 100%;
+  max-width: 410px;
+  grid-area: todos;
+
+  &--done {
+    border-color: rgb(40, 136, 56);
+    margin-right: 6px;
+    grid-area: dones;
+  }
+
+  &__header {
+    grid-area: header;
+  }
+
+  &__container {
+    border: 5px outset #678;
+    border-radius: 13px 7px;
+    padding: 0 8px 8px 8px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "header header"
+      "todos dones";
+    max-width: 920px;
+  }
+}
