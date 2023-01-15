@@ -4,6 +4,15 @@ import TaskLists from "../dto/TasksLists";
 import useQuery from "./useQuery";
 
 const isTask = (task: unknown): task is Task => {
+  if (typeof task !== "object" || task == null) {
+    return false;
+  }
+  if (!("id" in task) || !("title" in task)) {
+    return false;
+  }
+  if (!(typeof task.id === "number") || !(typeof task.title === "string")) {
+    return false;
+  }
   return true;
 };
 
