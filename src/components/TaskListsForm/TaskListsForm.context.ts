@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { TasksFormContext } from "./TasksForm.types";
+import { TaskListsFormContext } from "./TaskListsForm.types";
 
 /**
  * The instance of the tasksforms context.
@@ -9,27 +9,32 @@ import { TasksFormContext } from "./TasksForm.types";
  *
  * @beta
  */
-const tasksformContext = createContext<TasksFormContext>({
+const tasksformContext = createContext<TaskListsFormContext>({
   todos: [],
   dones: [],
-  addTodo: function (): void {
+  addTodo: () => {
     console.error(
       "Function not implemented since the context hasn't been provided the correct value in it's provider.\nThe function \"addTodo\" is expected to be overridden."
     );
   },
-  toggleTask: function (): void {
+  toggleTask: () => {
     console.error(
       "Function not implemented since the context hasn't been provided the correct value in it's provider.\nThe function \"toggleTask\" is expected to be overridden."
     );
   },
-  deleteTask: function (): void {
+  deleteTask: () => {
     console.error(
       "Function not implemented since the context hasn't been provided the correct value in it's provider.\nThe function \"deleteTask\" is expected to be overridden."
     );
   },
-  editTask: function (): void {
+  editTask: () => {
     console.error(
       "Function not implemented since the context hasn't been provided the correct value in it's provider.\nThe function \"editTask\" is expected to be overridden."
+    );
+  },
+  saveTaskLists: () => {
+    console.error(
+      "Function not implemented since the context hasn't been provided the correct value in it's provider.\nThe function \"saveTaskLists\" is expected to be overridden."
     );
   },
 });
