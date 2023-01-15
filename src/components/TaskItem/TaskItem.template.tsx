@@ -36,7 +36,7 @@ const TaskItem = ({
         <input
           type="text"
           value={title}
-          onChange={onChangeTitle}
+          onChange={(e) => onChangeTitle(e.currentTarget.value)}
           className={style["task-item__input"]}
         />
 
