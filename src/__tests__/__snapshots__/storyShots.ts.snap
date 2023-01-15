@@ -1,0 +1,1070 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storybook snapshots Storyshots Components/Button Button Mock 1`] = `
+<button
+  class="button button--medium button--secondary"
+  type="button"
+>
+  mocked button
+</button>
+`;
+
+exports[`Storybook snapshots Storyshots Components/Button When Large 1`] = `
+<button
+  class="button button--large button--secondary"
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storybook snapshots Storyshots Components/Button When Primary 1`] = `
+<button
+  class="button button--medium button--primary"
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storybook snapshots Storyshots Components/Button When Secondary 1`] = `
+<button
+  class="button button--medium button--secondary"
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storybook snapshots Storyshots Components/Button When Small 1`] = `
+<button
+  class="button button--small button--secondary"
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storybook snapshots Storyshots Components/CatPicture Cat Picture Mock 1`] = `
+<div
+  class="cat-picture"
+>
+  <img
+    alt="Your random cat reward"
+    class="cat-picture__image"
+    src="https://cataas.com/cat"
+  />
+  <div
+    class="cat-picture__button"
+  >
+    <button
+      class="button button--medium button--secondary"
+      type="button"
+    >
+      X
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storybook snapshots Storyshots Components/CatPicture Normal 1`] = `
+<div
+  class="cat-picture"
+>
+  <img
+    alt="Your random cat reward"
+    class="cat-picture__image"
+    src="https://cataas.com/cat?v=1"
+  />
+  <div
+    class="cat-picture__button"
+  >
+    <button
+      class="button button--medium button--secondary"
+      type="button"
+    >
+      X
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storybook snapshots Storyshots Components/TaskCard Task Item Mock 1`] = `
+<li
+  class="task-item"
+>
+  <input
+    type="checkbox"
+  />
+  <span
+    class="task-item__title "
+  >
+    saved title
+  </span>
+</li>
+`;
+
+exports[`Storybook snapshots Storyshots Components/TaskCard When Done 1`] = `
+<li
+  class="task-item"
+>
+  <input
+    checked=""
+    type="checkbox"
+  />
+  <span
+    class="task-item__title task-item__title--done"
+  >
+    title2
+  </span>
+</li>
+`;
+
+exports[`Storybook snapshots Storyshots Components/TaskCard When Undone 1`] = `
+<li
+  class="task-item"
+>
+  <input
+    type="checkbox"
+  />
+  <span
+    class="task-item__title "
+  >
+    title2
+  </span>
+</li>
+`;
+
+exports[`Storybook snapshots Storyshots Components/TaskLists Task Lists Mock 1`] = `
+<div
+  class="tasks-lists__container"
+>
+  <div
+    class="tasks-lists__header"
+  >
+    <h1>
+      Kat todo app
+    </h1>
+    <input
+      value=""
+    />
+    <button
+      class="button button--medium button--secondary"
+      type="button"
+    >
+      add todo
+    </button>
+    <button
+      class="button button--medium button--primary"
+      type="button"
+    >
+      Save all tasks
+    </button>
+    <hr />
+  </div>
+  <ul
+    class="tasks-lists"
+  >
+    <h2>
+      Todos:
+    </h2>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+  </ul>
+  <ul
+    class="tasks-lists tasks-lists--done"
+  >
+    <h2>
+      Well dones:
+    </h2>
+    <li
+      class="task-item"
+    >
+      <input
+        checked=""
+        type="checkbox"
+      />
+      <span
+        class="task-item__title task-item__title--done"
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        checked=""
+        type="checkbox"
+      />
+      <span
+        class="task-item__title task-item__title--done"
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        checked=""
+        type="checkbox"
+      />
+      <span
+        class="task-item__title task-item__title--done"
+      >
+        saved title
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storybook snapshots Storyshots Components/TaskLists With Dones 1`] = `
+<div
+  class="tasks-lists__container"
+>
+  <div
+    class="tasks-lists__header"
+  >
+    <h1>
+      Kat todo app
+    </h1>
+    <input
+      value=""
+    />
+    <button
+      class="button button--medium button--secondary"
+      type="button"
+    >
+      add todo
+    </button>
+    <hr />
+  </div>
+  <ul
+    class="tasks-lists"
+  >
+    <h2>
+      Todos:
+    </h2>
+  </ul>
+  <ul
+    class="tasks-lists tasks-lists--done"
+  >
+    <h2>
+      Well dones:
+    </h2>
+    <li
+      class="task-item"
+    >
+      <input
+        checked=""
+        type="checkbox"
+      />
+      <span
+        class="task-item__title task-item__title--done"
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        checked=""
+        type="checkbox"
+      />
+      <span
+        class="task-item__title task-item__title--done"
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        checked=""
+        type="checkbox"
+      />
+      <span
+        class="task-item__title task-item__title--done"
+      >
+        saved title
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storybook snapshots Storyshots Components/TaskLists With Todos 1`] = `
+<div
+  class="tasks-lists__container"
+>
+  <div
+    class="tasks-lists__header"
+  >
+    <h1>
+      Kat todo app
+    </h1>
+    <input
+      value=""
+    />
+    <button
+      class="button button--medium button--secondary"
+      type="button"
+    >
+      add todo
+    </button>
+    <hr />
+  </div>
+  <ul
+    class="tasks-lists"
+  >
+    <h2>
+      Todos:
+    </h2>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+  </ul>
+  <ul
+    class="tasks-lists tasks-lists--done"
+  >
+    <h2>
+      Well dones:
+    </h2>
+  </ul>
+</div>
+`;
+
+exports[`Storybook snapshots Storyshots Components/TaskLists With Todos And Dones 1`] = `
+<div
+  class="tasks-lists__container"
+>
+  <div
+    class="tasks-lists__header"
+  >
+    <h1>
+      Kat todo app
+    </h1>
+    <input
+      value=""
+    />
+    <button
+      class="button button--medium button--secondary"
+      type="button"
+    >
+      add todo
+    </button>
+    <hr />
+  </div>
+  <ul
+    class="tasks-lists"
+  >
+    <h2>
+      Todos:
+    </h2>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+  </ul>
+  <ul
+    class="tasks-lists tasks-lists--done"
+  >
+    <h2>
+      Well dones:
+    </h2>
+    <li
+      class="task-item"
+    >
+      <input
+        checked=""
+        type="checkbox"
+      />
+      <span
+        class="task-item__title task-item__title--done"
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        checked=""
+        type="checkbox"
+      />
+      <span
+        class="task-item__title task-item__title--done"
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        checked=""
+        type="checkbox"
+      />
+      <span
+        class="task-item__title task-item__title--done"
+      >
+        saved title
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storybook snapshots Storyshots Components/TaskLists Without Tasks 1`] = `
+<div
+  class="tasks-lists__container"
+>
+  <div
+    class="tasks-lists__header"
+  >
+    <h1>
+      Kat todo app
+    </h1>
+    <input
+      value=""
+    />
+    <button
+      class="button button--medium button--secondary"
+      type="button"
+    >
+      add todo
+    </button>
+    <hr />
+  </div>
+  <ul
+    class="tasks-lists"
+  >
+    <h2>
+      Todos:
+    </h2>
+  </ul>
+  <ul
+    class="tasks-lists tasks-lists--done"
+  >
+    <h2>
+      Well dones:
+    </h2>
+  </ul>
+</div>
+`;
+
+exports[`Storybook snapshots Storyshots Components/TaskListsForm Task Lists Form Mock 1`] = `
+<div
+  class="tasks-lists__container"
+>
+  <div
+    class="tasks-lists__header"
+  >
+    <h1>
+      Kat todo app
+    </h1>
+    <input
+      value=""
+    />
+    <button
+      class="button button--medium button--secondary"
+      type="button"
+    >
+      add todo
+    </button>
+    <button
+      class="button button--medium button--primary"
+      type="button"
+    >
+      Save all tasks
+    </button>
+    <hr />
+  </div>
+  <ul
+    class="tasks-lists"
+  >
+    <h2>
+      Todos:
+    </h2>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+  </ul>
+  <ul
+    class="tasks-lists tasks-lists--done"
+  >
+    <h2>
+      Well dones:
+    </h2>
+    <li
+      class="task-item"
+    >
+      <input
+        checked=""
+        type="checkbox"
+      />
+      <span
+        class="task-item__title task-item__title--done"
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        checked=""
+        type="checkbox"
+      />
+      <span
+        class="task-item__title task-item__title--done"
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        checked=""
+        type="checkbox"
+      />
+      <span
+        class="task-item__title task-item__title--done"
+      >
+        saved title
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storybook snapshots Storyshots Components/TaskListsForm With Cat Picture 1`] = `
+<div
+  class="tasks-lists__container"
+>
+  <div
+    class="tasks-lists__header"
+  >
+    <h1>
+      Kat todo app
+    </h1>
+    <input
+      value=""
+    />
+    <button
+      class="button button--medium button--secondary"
+      type="button"
+    >
+      add todo
+    </button>
+    <button
+      class="button button--medium button--primary"
+      type="button"
+    >
+      Save all tasks
+    </button>
+    <hr />
+  </div>
+  <ul
+    class="tasks-lists"
+  >
+    <h2>
+      Todos:
+    </h2>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+  </ul>
+  <ul
+    class="tasks-lists tasks-lists--done"
+  >
+    <h2>
+      Well dones:
+    </h2>
+    <li
+      class="task-item"
+    >
+      <input
+        checked=""
+        type="checkbox"
+      />
+      <span
+        class="task-item__title task-item__title--done"
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        checked=""
+        type="checkbox"
+      />
+      <span
+        class="task-item__title task-item__title--done"
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        checked=""
+        type="checkbox"
+      />
+      <span
+        class="task-item__title task-item__title--done"
+      >
+        saved title
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storybook snapshots Storyshots Components/TaskListsForm Without Cat Picture 1`] = `
+<div
+  class="tasks-lists__container"
+>
+  <div
+    class="tasks-lists__header"
+  >
+    <h1>
+      Kat todo app
+    </h1>
+    <input
+      value=""
+    />
+    <button
+      class="button button--medium button--secondary"
+      type="button"
+    >
+      add todo
+    </button>
+    <button
+      class="button button--medium button--primary"
+      type="button"
+    >
+      Save all tasks
+    </button>
+    <hr />
+  </div>
+  <ul
+    class="tasks-lists"
+  >
+    <h2>
+      Todos:
+    </h2>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        type="checkbox"
+      />
+      <span
+        class="task-item__title "
+      >
+        saved title
+      </span>
+    </li>
+  </ul>
+  <ul
+    class="tasks-lists tasks-lists--done"
+  >
+    <h2>
+      Well dones:
+    </h2>
+    <li
+      class="task-item"
+    >
+      <input
+        checked=""
+        type="checkbox"
+      />
+      <span
+        class="task-item__title task-item__title--done"
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        checked=""
+        type="checkbox"
+      />
+      <span
+        class="task-item__title task-item__title--done"
+      >
+        saved title
+      </span>
+    </li>
+    <li
+      class="task-item"
+    >
+      <input
+        checked=""
+        type="checkbox"
+      />
+      <span
+        class="task-item__title task-item__title--done"
+      >
+        saved title
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storybook snapshots Storyshots Components/TodoAdder Normal 1`] = `
+<input
+  value=""
+/>
+`;
+
+exports[`Storybook snapshots Storyshots Components/TodoAdder Todo Adder Mock 1`] = `
+<input
+  value=""
+/>
+`;
