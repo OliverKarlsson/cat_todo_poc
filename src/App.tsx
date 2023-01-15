@@ -1,26 +1,44 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from "react";
+import TasksForm from "./components/TaskListsForm/TaskListsForm";
+import useFetchTaskLists from "./hooks/useFetchTaskLists";
+import useSaveTaskLists from "./hooks/useSaveTaskLists";
 
-function App() {
+const App = () => {
+  const { taskLists, fetchTaskLists } = useFetchTaskLists();
+  const { saveTaskLists, startSaveTaskLists } = useSaveTaskLists();
+
+  useEffect(fetchTaskLists, [fetchTaskLists]);
+
+  const isLoading =
+    taskLists.status === "initial" ||
+    taskLists.status === "loading" ||
+    saveTaskLists.status === "loading";
+
+  const hasFetchError = saveTaskLists.status === "failed";
+  const hasSaveError = saveTaskLists.status === "failed";
+
+  const isLoaded =
+    !isLoading &&
+    !hasFetchError &&
+    !hasSaveError &&
+    taskLists.status === "loaded";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {isLoading && <p>Loading...</p>}
+      {isLoaded && taskLists.response && (
+        <TasksForm
+          initialTaskLists={taskLists.response}
+          startSaveTaskLists={startSaveTaskLists}
+        />
+      )}
+      {isLoaded && !taskLists.response && <p>Something went horribly wrong</p>}
+      {hasFetchError && (
+        <p>Something went wrong when fetching the task lists</p>
+      )}
+      {hasSaveError && <p>Something went wrong when saving the task lists</p>}
+    </>
   );
-}
+};
 
 export default App;
