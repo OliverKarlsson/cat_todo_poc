@@ -7,15 +7,30 @@
   display: inline-block;
   line-height: 1;
 
+  &:disabled {
+    background-color: #c7c7c7;
+    color: rgb(44, 44, 44);
+  }
+
   &--primary {
     color: white;
     background-color: #1ea7fd;
+
+    &:disabled {
+      color: rgb(201, 201, 201);
+      background-color: #1989cf;
+    }
   }
 
   &--secondary {
     color: #333;
     background-color: transparent;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+
+    &:disabled {
+      color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.2);
+    }
   }
 
   &--small {
