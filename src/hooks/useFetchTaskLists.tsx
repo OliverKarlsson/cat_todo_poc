@@ -45,6 +45,11 @@ const isTaskLists = (tasks: unknown): tasks is TaskLists => {
   return true;
 };
 
+/**
+ * Util hook to handle fetching of task lists.
+ * @returns the taskLists call state & the callback function to start fetching them
+ * @beta
+ */
 const useFetchTaskLists = () => {
   const [taskLists, setTaskLists] = useState<Tasks>({
     status: "initial",
