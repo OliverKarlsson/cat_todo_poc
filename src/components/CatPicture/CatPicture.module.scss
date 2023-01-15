@@ -1,0 +1,23 @@
+.cat-picture {
+  position: absolute;
+  z-index: 5;
+  padding: 15px 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-color: white;
+  left: 50%;
+  transform: translateX(-50%);
+
+  &__button {
+    display: inline-block;
+    position: absolute;
+    z-index: 7;
+    transform: translate(calc(-100% - 10px), 5px);
+    transition: opacity 500ms ease-in-out;
+  }
+
+  &__image {
+    border-radius: 17px;
+    width: 600px;
+  }
+}
